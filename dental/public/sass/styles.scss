@@ -1,3 +1,7 @@
 @import "phone-default";
-@import "tablet";
-@import "desktop";
+@media only screen and (min-width: 45em) {
+  @import "tablet";
+}
+@media only screen and (min-width: 64.25em) {
+  @import "desktop";
+}
